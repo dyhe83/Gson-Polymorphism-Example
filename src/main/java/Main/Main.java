@@ -9,25 +9,25 @@ import com.google.gson.GsonBuilder;
 
 public class Main {
 
-    public static void main(String[] args) {
-        // create gson object
-        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping()
-                .registerTypeAdapterFactory(new AnimalTypeAdapterFactory())
-                .create();
+	public static void main(String[] args) {
+		// create gson object
+		Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping()
+				.registerTypeAdapterFactory(new AnimalTypeAdapterFactory())
+				.create();
 
-        // create animal lists
-        Animal[] original_animals = {new Animal(), new Bird(), new Cat()};
+		// create animal lists
+		Animal[] original_animals = {new Animal(), new Bird(), new Cat()};
 
-        // write to Json string
-        String jsonString = gson.toJson(original_animals);
+		// write to Json string
+		String jsonString = gson.toJson(original_animals);
 
-        // read form Json string
-        Animal[] animals = gson.fromJson(jsonString, Animal[].class);
+		// read form Json string
+		Animal[] animals = gson.fromJson(jsonString, Animal[].class);
 
-        // print information
-        for (Animal animal : animals) {
-            animal.printInfo();
-            System.out.println();
-        }
-    }
+		// print information
+		for (Animal animal : animals) {
+			animal.printInfo();
+			System.out.println();
+		}
+	}
 }
