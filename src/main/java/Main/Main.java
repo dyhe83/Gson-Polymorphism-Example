@@ -21,7 +21,7 @@ public class Main {
 		// write to Json string
 		String jsonString = gson.toJson(original_animals);
 
-		// read form Json string
+		// read from Json string
 		Animal[] animals = gson.fromJson(jsonString, Animal[].class);
 
 		// print information
