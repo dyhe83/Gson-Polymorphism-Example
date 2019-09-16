@@ -7,7 +7,7 @@
 
 ## How to use
 ```sh
-$ git clone https://github.com/dyhe83/Gson-Polymorphism-Example.git
+$ git clone https://github.com/dyhe83/Gson-Polymorphism-Example.git --depth=1
 $ cd Gson-Polymorphism-Example
 $ gradle run
 
