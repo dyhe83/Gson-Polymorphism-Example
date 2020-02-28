@@ -1,5 +1,5 @@
 # Gson-Polymorphism-Example
-[![java8](https://img.shields.io/badge/java-8.0-orange.svg?style=popout)](https://www.java.com)
+[![Java8](https://img.shields.io/badge/Java-8.0-orange.svg?style=popout)](https://www.java.com)
 [![build](https://travis-ci.org/dyhe83/Gson-Polymorphism-Example.svg?branch=master)](https://travis-ci.org/dyhe83/Gson-Polymorphism-Example)
 
 * A simple Gson polymorphism serialization and deserialization example by using TypeAdapterFactory.
