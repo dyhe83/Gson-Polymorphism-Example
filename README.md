@@ -9,7 +9,7 @@
 ```sh
 $ git clone https://github.com/dyhe83/Gson-Polymorphism-Example.git --depth=1
 $ cd Gson-Polymorphism-Example
-$ gradle run
+$ ./gradlew run
 
 [Animal]
 Numbers of foot = 0

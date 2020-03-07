@@ -15,6 +15,6 @@ jdk:
   - oraclejdk8
 
 script:
-  - gradle assemble
-  - gradle check
-  - gradle run
+  - ./gradlew assemble
+  - ./gradlew check
+  - ./gradlew run
